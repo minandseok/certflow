@@ -189,14 +189,6 @@ export default function StudyCalendar() {
       {/* Time Tracker 링크 */}
       <div className='mb-4 text-right'>
         <a
-          href='https://time-tracker-gamma-taupe.vercel.app/'
-          target='_blank'
-          rel='noopener noreferrer'
-          className='text-sm text-gray-600 hover:text-gray-800 transition-colors'>
-          Time Tracker
-        </a>
-        <span className='text-sm text-gray-600'> | </span>
-        <a
           href='https://www.q-net.or.kr/crf021.do?id=crf02101&gSite=Q&gId=&scheType=01'
           target='_blank'
           rel='noopener noreferrer'
@@ -488,7 +480,7 @@ export default function StudyCalendar() {
       <section
         className='border border-gray-300 rounded-lg p-6 mb-6'
         aria-labelledby='all-records-title'>
-        <div className='flex items-center justify-between mb-4'>
+        <div className='flex items-center justify-between mb-4 flex-wrap gap-2'>
           <h2
             id='all-records-title'
             className='text-xl font-bold text-gray-800'>
